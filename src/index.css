@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-900 text-gray-100;
+}
+
+select, input {
+  @apply bg-dark-800 border-dark-700 text-gray-100;
+}
+
+select option {
+  @apply bg-dark-800 text-gray-100;
+}
+
+button {
+  @apply transition-colors duration-200;
+}
